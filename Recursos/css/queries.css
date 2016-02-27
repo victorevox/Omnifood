@@ -1,0 +1,188 @@
+
+/*Big tablets to to 1200px (widths smaller that the 1140 row) */
+
+@media only screen and (max-width: 1200px){
+	
+	.hero-text-box {
+	width: 100%;
+	padding: 0 2%;
+	}
+	
+	.row{padding: : 0 2%;}
+}
+
+
+/*Small tablet to big tablet: from 768 to 1023*/
+
+@media only screen and (max-width: 1023px){
+	body{
+		font-size: 18px;
+	}
+	section{
+		padding: 45px;
+	}
+	.long-copy{
+		width: 95%;
+		margin-left: 5%;
+	}
+	
+	.steps-box{
+		margin-top: 10px;
+	}
+	.steps-box:last-child{
+		margin-top: 10px;
+	}
+	.works-steps{
+		margin-bottom: 10px;
+	}
+	mowrks-step:last-type{
+		margin-bottom: 15px;
+	}
+	.app-screen{
+		width: 60%;
+	}
+	
+	.icon-small{
+		margin-right: 4px;
+		width: 18;
+	}
+	.city-feature{
+		font-size: 85%;
+	}
+	
+	.plan-box{
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+	.plan-price{
+		font-size: 260%;
+	}
+	.contact-form{
+		width: 80%;
+	}
+}
+
+
+
+/*Small-medium-tablets screen: from 481 to 767*/
+
+@media only screen and (max-width: 767px){
+	body{
+		font-size: 16px;
+	}
+	section{
+		padding: 30px;
+	}
+	
+	.row,
+	.hero-text-box{
+		padding: 0 4%;
+	}
+	.col{
+		width: 100%
+	}
+	.main-nav{
+		display: none;
+	}
+    
+	.long-copy{
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+    }
+    
+    .main-nav li {
+        display: block;
+        border: 0;
+        padding: 5px 0px;
+        font-size: 120%;
+    }
+    
+    .main-nav a:link,
+    .main-nav a:visited {
+        display: block;
+    }
+    
+    /*Sticky nav*/
+    .sticky{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 3px 2px #d9d9d9;
+        z-index: 9999;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 10px 0;
+    }
+
+    .sticky .mobile-nav-icon i { color: #000;}
+    .sticky .mobile-nav-icon { margin-top: 10px;}
+
+    .stcky .main-nav{
+        margin-top: 16px;
+    }
+
+
+    
+	h1{
+		font-size: 100%;
+	}
+	
+	h2{
+		font-size: 150%;
+	}
+	.works-step{
+		margin-bottom: 20px;
+	}
+	mowrks-step:last-type{
+		margin-bottom: 10px;
+	}
+	
+	.steps-box:first-child{
+		text-align: center;
+	}
+	
+	.works-step div{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		margin-right: 15px;
+		padding: 4px;
+		font-size: 120%;
+	}
+	
+	.app-screen{
+		width: 40%;
+	}
+	
+	.col{
+		width: 100%;
+		margin: 0% 0% 4% 0%;
+	}
+}
+
+
+/*Small phones: from 0 to 480*/
+
+@media only screen and (max-width: 480px){
+	section{
+		padding: 20px 0;
+		
+	}
+	.contact-form{
+		width: 100%;
+	}
+}
